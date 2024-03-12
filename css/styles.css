@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: white;
+    border-bottom: 1px solid rgb(247, 244, 244);
+}
+nav .navbar-brand{
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: none;
+}
+nav .navbar-brand:hover{
+    color: rgb(54, 99, 99);
+}
+
+nav .collapse ul a{
+    color: black;
+    font-weight: bold;
+}
+
+.collapse ul a:hover{
+    color: rgb(54, 99, 99);
+}
+nav .collapse li .dropdown-menu a{
+    color: rgb(38, 38, 155);
+}
+.get{
+    /* border: 1px solid white; */
+    border-radius: 12px;
+    background: rgb(184, 248, 248);
+}
+.get:hover{
+    background-color: rgb(68, 194, 194);
+}
+nav ul li .get{
+    color: rgb(22, 122, 122);
+}
+nav li{
+    padding: 2px 15px;
+}
+
+
+
+
+/* hero */
+.hero{
+    margin-top: 12%;
+    text-align: center;
+    background: rgb(38, 38, 155); 
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/mentor\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero p{
+    font-size: 17px;
+    font-family: cursive;
+    color: white;
+}
+.hero h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+.link .search{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(31, 143, 143);
+    color: white;
+    font-family: cursive;
+}
+.link .search:hover{
+    background-color: lightblue;
+    color: black;
+    transition: 1s;
+}
+.hero span{
+    color: rgb(26, 252, 252);
+}
+.link{
+    text-align: center;
+    margin-top: 30px;
+}
+.test img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+.test img:hover{
+    transform: scale(0.4);
+    transition: 3s ease;
+    cursor: pointer;
+}
+.testt{
+    margin-top: 70px;
+    /* border: 1px solid black; */
+}
+.hero2{
+    background: rgb(44, 44, 107);
+    color: white;
+    margin-top: 4%;
+    text-align: center;
+}
+.hero2 h5{
+    font-family: cursive;
+
+}
+.hero2 h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.hero2 .step{
+    margin-top: 50px;
+}
+.hero2 .step p{
+    font-size: 17px;
+    font-family: cursive;
+    padding-top: 10px;
+}
+.hero2 .step h3{
+    font-size: 30px;
+}
+.butt .find{
+    border: 1px solid rgb(64, 63, 63);
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(31, 143, 143);
+    color: white;
+    font-family: cursive;
+}
+.butt .become{
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: cursive;
+}
+.butt .find:hover{
+        background-color: lightblue;
+        color: black;
+        transition: 1s;
+}
+.butt .become:hover{
+        background-color: lightblue;
+        color: black;
+        transition: 1s;
+}
+.butt{
+    margin-top: 20px;
+}
+
+.hero3{
+    padding-top: 30px;
+}
+.hero3 .find{
+    border: 1px solid rgb(64, 63, 63);
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(31, 143, 143);
+    color: white;
+    font-family: cursive;
+}
+.hero4{
+    background: rgb(44, 44, 107);
+    color: white;
+}
+.hero4 h2{
+    font-size: 50px;
+}
+.hero4 p{
+    font-family: cursive;
+    font-size: 17px;
+}
+.hero4 img{
+    padding-left: 50px;
+}
+.hero4 .move{
+    padding-left: 70px;
+    padding-top: 40px;
+}
+.hero4 .man{
+    padding-right: 100px;
+}
+
+.about, .about1, .about2, .about3, .about4, .about5{
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+}
+.about span, .about1 span, .about2 span, .about3 span, .about4 span, .about5 span{
+    color: rgb(78, 240, 240);
+}
+
+.side-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100vh;
+    border: 1px solid blue;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.hidden{
+    transform: translateX(-100%);
+}
+
+.hero4 .exp{
+    margin-left: 60px;
+}

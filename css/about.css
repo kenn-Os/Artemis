@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: white;
+    border-bottom: 1px solid rgb(247, 244, 244);
+}
+nav .collapse .nav-item .active{
+    color: rgb(22, 122, 122);
+}
+nav .navbar-brand{
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: none;
+}
+nav .navbar-brand:hover{
+    color: rgb(54, 99, 99);
+}
+
+nav .collapse ul a{
+    color: black;
+    font-weight: bold;
+}
+
+.collapse ul a:hover{
+    color: rgb(54, 99, 99);
+}
+nav .collapse li .dropdown-menu a{
+    color: rgb(16, 16, 80);
+}
+.get{
+    /* border: 1px solid white; */
+    border-radius: 12px;
+    background: rgb(184, 248, 248);
+}
+.get:hover{
+    background-color: rgb(68, 194, 194);
+}
+
+nav li{
+    padding: 2px 15px;
+}
+
+
+
+.about, .about1, .about2, .about3, .about4, .about5{
+    text-align: center;
+    margin-top: 90px;
+    color: black;
+
+}
+.about p, .about1 p, .about2 p, .about3 p, .about4 p, .about5 p{
+    font-family: cursive;
+}
+.about span, .about1 span, .about2 span, .about3 span, .about4 span, .about5 span{
+    color: rgb(72, 179, 179);
+}
+
+.about3 .cd{
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa-facebook{
+    font-size: 30px;
+}
+
+.about3{
+    /* background-color: rgb(7, 7, 85); */
+    padding-bottom: 20px;
+}
+
+.about3 .col-md-12{
+    padding-top: -90px;
+}
+.about3 h2{
+    color: black;
+}
+.about3 h2 span{
+    color: rgb(68, 194, 194);
+}
+
+footer{
+    padding: 10px;
+    color: rgb(72, 179, 179);
+    text-align: center;
+    border-top: 1px solid rgb(202, 198, 198);
+}

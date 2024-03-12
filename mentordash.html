@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mentor's Dashboard</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./css/mentordash.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <section class="left-options col-lg-3 col-md-4 col-sm-12">
+                <div class="option-content">
+                    <h2><a href="index.html" class="logo">Mentor.ly</a></h2>
+                    <ul class="links">
+                        <li><a href=""><span class="fa fa-desktop"></span> Dashboard</a></li>
+                        <li><a href="/schedule.html"><span class="fa fa-calendar"></span> Schedules</a></li>
+                        <li><a href="/students.html"><span class="fa fa-users"></span> Students</a></li>
+                        <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="main col-lg-9 col-md-8 col-sm-12">
+                <div class="title">
+                    <h2>Dashboard</h2>
+                    <div class="dash-actions">
+                        <span class="fa fa-search"></span>
+                        <span class="fa fa-bell"></span>
+                        <div class="profile-details">
+                            <div class="profile-image">
+                                <img src="img/microsoft-365-7mBictB_urk-unsplash.jpg" alt="">
+                            </div>
+                            <h3 class="profile-name">
+                                Artemis Xavier
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-body">
+                    <div class="main-content">
+                        <div class="tutor-class">
+                            <div class="upcoming">
+                                <span class="fa fa-calendar"></span>
+                                <h1>12</h1>
+                                <div>
+                                    <h5>Upcoming Class</h5>
+                                    <p>This Week</p>
+                                </div>
+                            </div>
+                            <button class="schedule-button">See Schedules</button>
+                        </div>
+                        <div class="flex-container">
+                            <div class="flex hours">
+                                <p><b>Tutoring Hours</b></p>
+                                <h2>242</h2>
+                                <p>In November 2023</p>
+                            </div>
+                            <div class="flex students">
+                                <p><b>Students</b></p>
+                                <h2>104</h2>
+                                <p>In November 2023</p>
+                            </div>
+                            <div class="flex classes">
+                                <p><b>Classes</b></p>
+                                <h2>20</h2>
+                                <p>In November 2023</p>
+                            </div>
+                        </div>
+
+                        <div class="schedule-content">
+                            <div class="wrapper">
+                                <header>
+                                    <p class="current-date"></p>
+                                    <div class="icons">
+                                        <span id="prev" class="material-icons">chevron_left</span>
+                                        <span id="right" class="material-icons">chevron_right</span>
+                                    </div>
+                                </header>
+                                <div class="calendar">
+                                    <div class="row weeks">
+                                        <div class="col">Sun</div>
+                                        <div class="col">Mon</div>
+                                        <div class="col">Tue</div>
+                                        <div class="col">Wed</div>
+                                        <div class="col">Thu</div>
+                                        <div class="col">Fri</div>
+                                        <div class="col">Sat</div>
+                                    </div>
+                                    <div class="row days"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

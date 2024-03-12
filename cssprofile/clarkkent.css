@@ -1,0 +1,94 @@
+.container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    /* background: rgb(31, 143, 143); */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.container header{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container .form{
+    margin-top: 40px;
+}
+
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label{
+    color: black;
+}
+
+.form :where(.input-box input, .select-box){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-top: 8px;
+}
+
+.form .column{
+    display: flex;
+    column-gap: 15px;
+}
+.form textarea{
+    border-radius: 12px;
+}
+.form .confirm{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    height: 55px;
+    width: 100%;
+    border: none;
+    margin-top: 13px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    background-color: rgb(31, 143, 143);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.form a:hover{
+    background-color: rgb(31, 105, 134);
+
+}
+
+center .log{
+    font-size: 15px;
+    color: black;
+}
+center .become{
+    font-size: 15px;
+    color: black;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .form .column{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
